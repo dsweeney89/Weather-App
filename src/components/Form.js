@@ -44,7 +44,7 @@ const Form = props => (
           className="form-control"
           name="country"
           id="country"
-          placeholder="Country"
+          placeholder="Country (optional)"
           autoComplete="off"
         />
         <datalist id="countrylist">{populateCountries()}</datalist>
